@@ -1,3 +1,7 @@
+#include <string.h>
+#include <stddef.h>
+#include <stdbool.h>
+#include <stdlib.h>
 
 char * get_address()
 {
