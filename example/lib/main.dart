@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      platformVersion = _walletCorePlugin.getAddress().toString();
+      platformVersion = _walletCorePlugin.getAddress();
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }
